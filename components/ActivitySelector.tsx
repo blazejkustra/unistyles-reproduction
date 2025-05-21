@@ -47,12 +47,7 @@ const styles = StyleSheet.create((theme) => ({
     padding: 12,
     borderRadius: 12,
     width: 56,
-    backgroundColor: isActive ? theme.surfaceActive : "transparent",
+    backgroundColor: "red",
   }),
-  label: (isActive: boolean) => ({
-    marginTop: 6,
-    fontSize: 12,
-    color: isActive ? theme.primary : theme.typographySecondary,
-    fontWeight: isActive ? "600" : "400",
-  }),
+  label: (isActive: boolean) => ({}),
 }));

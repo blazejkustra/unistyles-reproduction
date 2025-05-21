@@ -13,6 +13,7 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     maxWidth: 500,
+    paddingTop: 100,
     width: "100%",
     alignSelf: "center",
     backgroundColor: "white",
